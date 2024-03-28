@@ -8,10 +8,10 @@ export default {
     extend: {},
   },
   plugins: [],
-  build: {
-    command: 'npm run build',
-    functions: 'functions/',
-},
+//   build: {
+//     command: 'npm run build',
+//     functions: 'functions/',
+// },
 }
 
 

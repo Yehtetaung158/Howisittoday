@@ -56,8 +56,8 @@ const WeatherApp = ({ dataFetch: dataFetch }) => {
   
     return (
       <div className="h-screen  ">
-        <div className=" shadow-2xl shadow-black bg-gradient-to-tl from-indigo-500 to-pink-500 h-[400px] w-2/4 mx-auto rounded-2xl flex flex-col">
-          <div className="flex flex-row mx-auto my-5 gap-3">
+        <div className=" max-[550px]:h-screen max-[550px]:w-full w-96 shadow-2xl shadow-black bg-gradient-to-tl from-indigo-500 to-pink-500 h-[400px] mx-auto rounded-2xl flex flex-col">
+          <div className="flex flex-row max-[550px]:flex-col  mx-auto my-5 gap-3">
             <div className="rounded-xl">
               <input
                 //   leading-tight/

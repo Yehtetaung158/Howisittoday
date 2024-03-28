@@ -14,3 +14,10 @@
   path = "myFunction.js"
   events = ["http"]
   roues = "/.netlify/functions/myFunction"
+
+  module.exports = {
+  build: {
+      command: 'npm run build',
+      functions: 'functions/',
+  },
+  };

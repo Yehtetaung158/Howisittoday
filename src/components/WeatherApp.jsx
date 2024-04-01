@@ -47,7 +47,7 @@ const WeatherApp = ({ dataFetch: dataFetch }) => {
           main: main,
           humidity: humidity,
           winSpeed: winSpeed,
-          temperature: parseInt(temperature - 273.15),
+          temperature: parseInt(temperature),
         },
       }));
       console.log(datas.loading.load)
